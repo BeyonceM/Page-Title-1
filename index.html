@@ -11,6 +11,8 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
           <input class="color" placeholder="What's your favorite color?">     <button>Submit</button>
             <input class="food" placeholder="What's your favorite food?">
         <button>Submit</button>
+          <input class="year" placeholder="pick a year">
+        <button>Submit</button>
    
         <p></p>
     
@@ -29,4 +31,8 @@ $("button").click(function(){
      $("button").click(function(){
      var food= $(".food").val(); 
         $("p").append("My favorite food is "+food+". ");
+});
+ $("button").click(function(){
+     var year= $(".year").val(); 
+        $("p").append(" I will be happy with my favorite food in "+year+". ");
 });</script></body></html>
