@@ -11,3 +11,7 @@ $("button").click(function(){
      var food= $(".food").val(); 
         $("p").append("My favorite food is "+food+". ");
 });
+ $("button").click(function(){
+     var year= $(".year").val(); 
+        $("p").append(" I will be happy with my favorite food in "+year+". ");
+});
